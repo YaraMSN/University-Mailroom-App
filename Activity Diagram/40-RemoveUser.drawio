@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T20:55:20.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hi6siyId0_KzBFfuKLkn" version="23.0.2" type="google">
+  <diagram name="Page-1" id="LSYCxZCiyMSwmVTYFIlG">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-29" value="حذف کردن کاربر" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="70" width="1270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-30" value="مدیر سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-29">
+          <mxGeometry x="20" width="1250" height="140" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-32" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-30">
+          <mxGeometry x="43" y="54.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUrhno4LK-QqctTVVjP-3" value="جستجوی کاربر&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=center;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-30">
+          <mxGeometry x="306" y="45" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iRBx2CajUNcY6ar7nXjl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-30">
+          <mxGeometry x="500" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jq7EtQ-wXcVLjX7o_3Nw-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست حذف کاربر&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-30">
+          <mxGeometry x="106" y="49.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-30" source="SFBFPGFI1g2Mg7jAhKoy-32" target="jq7EtQ-wXcVLjX7o_3Nw-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="174" y="220" as="targetPoint" />
+            <mxPoint x="176" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-37" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-29">
+          <mxGeometry x="20" y="140" width="1250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-38" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="1206" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="SFBFPGFI1g2Mg7jAhKoy-47" target="SFBFPGFI1g2Mg7jAhKoy-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="SFBFPGFI1g2Mg7jAhKoy-43" target="SFBFPGFI1g2Mg7jAhKoy-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="34.639999999999986" as="sourcePoint" />
+            <mxPoint x="968" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-42" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;[کاربر قابل حذف است]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-41">
+          <mxGeometry x="-0.362" y="1" relative="1" as="geometry">
+            <mxPoint x="18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-43" value="" style="rhombus;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="779" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEUrhno4LK-QqctTVVjP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="SFBFPGFI1g2Mg7jAhKoy-44" target="iRBx2CajUNcY6ar7nXjl-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1161" y="106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-44" value="نمایش علت ناتوانی در حذف کاربر" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="724" y="86" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="SFBFPGFI1g2Mg7jAhKoy-43" target="SFBFPGFI1g2Mg7jAhKoy-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-46" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;وگرنه&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-45">
+          <mxGeometry x="-0.2205" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-47" value="بررسی اطلاعات" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingLeft=10;flipH=1;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="564" y="10" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="iRBx2CajUNcY6ar7nXjl-7" target="SFBFPGFI1g2Mg7jAhKoy-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-49" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;حذف کاربر&amp;nbsp;&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="950" y="15" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFBFPGFI1g2Mg7jAhKoy-51" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;نمایش صفحه حذف کاربر&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="106" y="15" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRBx2CajUNcY6ar7nXjl-7" value="" style="rhombus;" vertex="1" parent="SFBFPGFI1g2Mg7jAhKoy-37">
+          <mxGeometry x="1146" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iRBx2CajUNcY6ar7nXjl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-37" source="SFBFPGFI1g2Mg7jAhKoy-49" target="iRBx2CajUNcY6ar7nXjl-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="665" as="sourcePoint" />
+            <mxPoint x="1320" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRBx2CajUNcY6ar7nXjl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-29" source="iRBx2CajUNcY6ar7nXjl-3" target="SFBFPGFI1g2Mg7jAhKoy-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRBx2CajUNcY6ar7nXjl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-29" source="SFBFPGFI1g2Mg7jAhKoy-51" target="eEUrhno4LK-QqctTVVjP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jq7EtQ-wXcVLjX7o_3Nw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="SFBFPGFI1g2Mg7jAhKoy-29" source="jq7EtQ-wXcVLjX7o_3Nw-1" target="SFBFPGFI1g2Mg7jAhKoy-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

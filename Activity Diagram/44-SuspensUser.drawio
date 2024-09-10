@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T21:40:31.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AarjpaDhrQujUAAxvNRB" version="22.1.18" type="google">
+  <diagram name="Page-1" id="QM3PezB5Xs4Cgh0zpbuv">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-1" value="تعلیق کاربر" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="70" width="1270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-2" value="مدیر سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-1">
+          <mxGeometry x="20" width="1250" height="140" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-3" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-2">
+          <mxGeometry x="43" y="54.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;جستجوی کاربر&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=center;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-2">
+          <mxGeometry x="306" y="45" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-2">
+          <mxGeometry x="500" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست تعلیق کاربر&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-2">
+          <mxGeometry x="106" y="49.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-2" source="oRmUlmRSsWPRaW_h22IE-3" target="oRmUlmRSsWPRaW_h22IE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="174" y="220" as="targetPoint" />
+            <mxPoint x="176" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-8" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-1">
+          <mxGeometry x="20" y="140" width="1250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-9" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="1206" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-18" target="oRmUlmRSsWPRaW_h22IE-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-13" target="oRmUlmRSsWPRaW_h22IE-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="34.639999999999986" as="sourcePoint" />
+            <mxPoint x="968" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;[امکان تعلیق کاربر وجود دارد]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-11">
+          <mxGeometry x="-0.362" y="1" relative="1" as="geometry">
+            <mxPoint x="18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-13" value="" style="rhombus;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="779" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-15" target="oRmUlmRSsWPRaW_h22IE-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1161" y="106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;نمایش علت ناتوانی در تعلیق کاربر&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="724" y="86" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-13" target="oRmUlmRSsWPRaW_h22IE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;وگرنه&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-16">
+          <mxGeometry x="-0.2205" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;بررسی اطلاعات&lt;/font&gt;" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingLeft=10;flipH=1;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="564" y="10" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-22" target="oRmUlmRSsWPRaW_h22IE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;تعلیق کاربر&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="950" y="15" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;نمایش لیست کاربران&lt;br&gt;&lt;/span&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="106" y="15" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-22" value="" style="rhombus;" vertex="1" parent="oRmUlmRSsWPRaW_h22IE-8">
+          <mxGeometry x="1146" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-8" source="oRmUlmRSsWPRaW_h22IE-20" target="oRmUlmRSsWPRaW_h22IE-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="665" as="sourcePoint" />
+            <mxPoint x="1320" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-1" source="oRmUlmRSsWPRaW_h22IE-5" target="oRmUlmRSsWPRaW_h22IE-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-1" source="oRmUlmRSsWPRaW_h22IE-21" target="oRmUlmRSsWPRaW_h22IE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRmUlmRSsWPRaW_h22IE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oRmUlmRSsWPRaW_h22IE-1" source="oRmUlmRSsWPRaW_h22IE-6" target="oRmUlmRSsWPRaW_h22IE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

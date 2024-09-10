@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T18:03:14.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wj6_0KM2f27irP58AxEs" version="23.0.2" type="google">
+  <diagram name="‫صفحه - 1‬" id="HE2TYPNpu1qyQoRF8X_Q">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-1" value="&amp;nbsp;تغییر نقش خود&amp;nbsp;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="66" y="50" width="720" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-2" value="کاربر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-1">
+          <mxGeometry x="20" width="700" height="80" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C-CL1DQKoUapr8Z-hu3X-2" source="C-CL1DQKoUapr8Z-hu3X-4" target="C-CL1DQKoUapr8Z-hu3X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-4" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-2">
+          <mxGeometry x="45" y="23.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست تغییر نقش خود&lt;br&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-2">
+          <mxGeometry x="104" y="18.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qGoF7XnPyQ7VSzZ3Di-g-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;انتخاب نقش مورد نظر&lt;br&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-2">
+          <mxGeometry x="284" y="18.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-21" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-1">
+          <mxGeometry x="20" y="80" width="700" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qGoF7XnPyQ7VSzZ3Di-g-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;نمایش نقش‌های کاربر&lt;br&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-21">
+          <mxGeometry x="104" y="29" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-22" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-21">
+          <mxGeometry x="650" y="34" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C-CL1DQKoUapr8Z-hu3X-21" source="C-CL1DQKoUapr8Z-hu3X-34" target="C-CL1DQKoUapr8Z-hu3X-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;نمایش پنل متناظر با کاربر و نقشش&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="C-CL1DQKoUapr8Z-hu3X-21">
+          <mxGeometry x="470" y="29" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C-CL1DQKoUapr8Z-hu3X-1" source="qGoF7XnPyQ7VSzZ3Di-g-2" target="qGoF7XnPyQ7VSzZ3Di-g-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="39" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="284" y="131" />
+              <mxPoint x="284" y="39" />
+            </Array>
+            <mxPoint x="267" y="131.48275862068965" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-CL1DQKoUapr8Z-hu3X-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C-CL1DQKoUapr8Z-hu3X-1" source="C-CL1DQKoUapr8Z-hu3X-5" target="qGoF7XnPyQ7VSzZ3Di-g-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="194" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVq5LIi0kweVAz1DwDK4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C-CL1DQKoUapr8Z-hu3X-1" source="qGoF7XnPyQ7VSzZ3Di-g-3" target="C-CL1DQKoUapr8Z-hu3X-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="38.51724137931035" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="464" y="39" />
+              <mxPoint x="464" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

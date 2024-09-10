@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T17:20:02.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N14sJSS4rFBTsXDJaywL" version="22.1.18" type="google">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-1" value="خروج" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="630" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-2" value="کاربر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-1">
+          <mxGeometry x="20" width="610" height="130" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mKUSQSk0Y3hNZV7pQNxL-2" source="mKUSQSk0Y3hNZV7pQNxL-4" target="mKUSQSk0Y3hNZV7pQNxL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="64.99999999999989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-4" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-2">
+          <mxGeometry x="45" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست خروج از سامانه&lt;/font&gt;" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingRight=10;whiteSpace=wrap;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-2">
+          <mxGeometry x="110" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-6" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-1">
+          <mxGeometry x="20" y="130" width="610" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-7" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-6">
+          <mxGeometry x="533" y="49" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;خروج کاربر توسط سامانه&lt;/span&gt;" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingLeft=10;flipH=1;whiteSpace=wrap;" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-6">
+          <mxGeometry x="343" y="39" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mKUSQSk0Y3hNZV7pQNxL-6" source="mKUSQSk0Y3hNZV7pQNxL-8" target="mKUSQSk0Y3hNZV7pQNxL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="198.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mKUSQSk0Y3hNZV7pQNxL-1" source="mKUSQSk0Y3hNZV7pQNxL-5" target="mKUSQSk0Y3hNZV7pQNxL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="239.97000000000003" y="255.0000000000001" as="targetPoint" />
+            <mxPoint x="200.00448275862072" y="125.00000000000011" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="324" y="65" />
+              <mxPoint x="324" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKUSQSk0Y3hNZV7pQNxL-11" value="اطلاعات کاربر" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="mKUSQSk0Y3hNZV7pQNxL-10">
+          <mxGeometry x="0.1557" y="1" relative="1" as="geometry">
+            <mxPoint x="-15" y="-87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-1" value="خروج" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="630" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-2" value="کاربر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-1">
+          <mxGeometry x="20" width="610" height="130" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-4" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-2">
+          <mxGeometry x="45" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست خروج از سامانه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-2">
+          <mxGeometry x="130" y="45" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jdeHkHNTjfYN6ozJzkPw-2" source="jdeHkHNTjfYN6ozJzkPw-4" target="jdeHkHNTjfYN6ozJzkPw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-6" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-1">
+          <mxGeometry x="20" y="130" width="610" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-7" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-6">
+          <mxGeometry x="533" y="49" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;خروج کاربر توسط سامانه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="jdeHkHNTjfYN6ozJzkPw-6">
+          <mxGeometry x="340" y="44" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jdeHkHNTjfYN6ozJzkPw-6" source="jdeHkHNTjfYN6ozJzkPw-13" target="jdeHkHNTjfYN6ozJzkPw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jdeHkHNTjfYN6ozJzkPw-1" source="jdeHkHNTjfYN6ozJzkPw-12" target="jdeHkHNTjfYN6ozJzkPw-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="65" />
+              <mxPoint x="330" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdeHkHNTjfYN6ozJzkPw-17" value="پایینیه" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="340" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

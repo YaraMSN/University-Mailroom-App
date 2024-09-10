@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2024-01-27T01:07:26.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ARfTqOE_WMi0Ol-sZjX-" version="23.0.2" type="google">
+  <diagram name="Page-1" id="-nksCHoNvisrf72eCqJS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wluimr_UP12LLSNRzbcD-1" value="ارسال نامه" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="750" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-2" value="کاربر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-1">
+          <mxGeometry x="20" width="730" height="150" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-3" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-2">
+          <mxGeometry x="60" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wluimr_UP12LLSNRzbcD-1" source="Wluimr_UP12LLSNRzbcD-3" target="Wluimr_UP12LLSNRzbcD-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-11" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-1">
+          <mxGeometry x="20" y="150" width="730" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-13" value="" style="rhombus;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="637" y="75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-21" target="Wluimr_UP12LLSNRzbcD-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="55" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kTZeIw1hXvDxkSxNdyxB-2" value="[ارسال نامه در انتظار]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Wluimr_UP12LLSNRzbcD-19">
+          <mxGeometry x="0.2629" y="2" relative="1" as="geometry">
+            <mxPoint x="-14" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-21" value="" style="rhombus;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="300" y="75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-25" target="Wluimr_UP12LLSNRzbcD-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-25" value="ارسال نامه در انتظار&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=center;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="420" y="20" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-27" target="Wluimr_UP12LLSNRzbcD-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-27" value="ارسال نامه جهت اطلاع&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=center;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="420" y="95" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-21" target="Wluimr_UP12LLSNRzbcD-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kTZeIw1hXvDxkSxNdyxB-3" value="[ارسال نامه جهت اطلاع]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Wluimr_UP12LLSNRzbcD-32">
+          <mxGeometry x="0.0572" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;انتخاب عملیات&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="120" y="-70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-16" target="Wluimr_UP12LLSNRzbcD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-4" target="Wluimr_UP12LLSNRzbcD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست انتخاب عملیات&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="120" y="45" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-5" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="Wluimr_UP12LLSNRzbcD-11">
+          <mxGeometry x="690" y="75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wluimr_UP12LLSNRzbcD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wluimr_UP12LLSNRzbcD-11" source="Wluimr_UP12LLSNRzbcD-13" target="Wluimr_UP12LLSNRzbcD-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

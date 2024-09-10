@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2024-01-27T01:47:19.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9Jh6tIb_Nb2QzeRfsjP9" version="23.0.2" type="google">
+  <diagram name="Page-1" id="oATLetNye8Pld1uedCwR">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-1" value="ارسال رونوشت" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="120" width="1550" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-2" value="کاربر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-1">
+          <mxGeometry x="20" width="1530" height="250" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-2" source="iInGiAeUHID2Q2cdJA-H-4" target="iInGiAeUHID2Q2cdJA-H-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-4" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-2">
+          <mxGeometry x="45" y="67" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست ارسال رونوشت&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-2">
+          <mxGeometry x="108" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-18" value="تایید اطلاعات" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingRight=10;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-2">
+          <mxGeometry x="672" y="60.5" width="146" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-2" source="qfK4Fhaposf9uQcbPZXF-1" target="qfK4Fhaposf9uQcbPZXF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;انتخاب نامه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-2">
+          <mxGeometry x="324" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-2" source="qfK4Fhaposf9uQcbPZXF-3" target="iInGiAeUHID2Q2cdJA-H-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;وارد کردن لیست گیرندگان رونوشت&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-2">
+          <mxGeometry x="494" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-1" source="iInGiAeUHID2Q2cdJA-H-5" target="iInGiAeUHID2Q2cdJA-H-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-1" source="iInGiAeUHID2Q2cdJA-H-18" target="iInGiAeUHID2Q2cdJA-H-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="82" />
+              <mxPoint x="854" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-48" value="نامه" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-47">
+          <mxGeometry x="-0.7829" y="2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-1" source="iInGiAeUHID2Q2cdJA-H-23" target="qfK4Fhaposf9uQcbPZXF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="294" y="300" />
+              <mxPoint x="294" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-22" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-1">
+          <mxGeometry x="20" y="250" width="1530" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;نمایش نامه های کاربر&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="108" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-30" target="iInGiAeUHID2Q2cdJA-H-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-25" value="" style="rhombus;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="1035" y="84" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-27" target="iInGiAeUHID2Q2cdJA-H-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;اعلام نامعتبر بودن گیرندگان&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="980" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-25" target="iInGiAeUHID2Q2cdJA-H-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;وگرنه&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-28">
+          <mxGeometry x="-0.2205" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-30" value="بررسی اطلاعات" style="shape=mxgraph.uml25.action;html=1;align=center;verticalAlign=middle;absoluteArcSize=1;arcSize=10;dashed=0;spacingLeft=10;flipH=1;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="868" y="25" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qfK4Fhaposf9uQcbPZXF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-32" target="iInGiAeUHID2Q2cdJA-H-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ارسال رونوشت نامه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="1224" y="79" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.022;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-25" target="iInGiAeUHID2Q2cdJA-H-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-39" value="[اطلاعات وارد شده صحیح است]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-38">
+          <mxGeometry x="0.1142" relative="1" as="geometry">
+            <mxPoint x="-15" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iInGiAeUHID2Q2cdJA-H-22" source="iInGiAeUHID2Q2cdJA-H-43" target="iInGiAeUHID2Q2cdJA-H-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-42" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="1474" y="84" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iInGiAeUHID2Q2cdJA-H-43" value="" style="rhombus;" vertex="1" parent="iInGiAeUHID2Q2cdJA-H-22">
+          <mxGeometry x="1394" y="84" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

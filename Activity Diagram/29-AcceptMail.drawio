@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T17:59:32.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="s42KUPrtJUKw6NLC6-EG" version="23.0.2" type="google">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-1" value="تایید نامه" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="120" width="1090" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-2" value="مدیر" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-1">
+          <mxGeometry x="20" width="1070" height="160" as="geometry">
+            <mxRectangle x="20" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-2" source="x7oLQHh2iD-KswwXOvEK-4" target="f7EHwu-FPaFX82-CpgRq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-4" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-2">
+          <mxGeometry x="45" y="67" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-2" source="f7EHwu-FPaFX82-CpgRq-6" target="f7EHwu-FPaFX82-CpgRq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470.0000000000002" y="88.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;انتخاب نامه مورد نظر&lt;br&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-2">
+          <mxGeometry x="334" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;درخواست دریافت نامه‌ها&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-2">
+          <mxGeometry x="134" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-8" value="" style="rhombus;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-2">
+          <mxGeometry x="514" y="67" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;پاراف زدن&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-2">
+          <mxGeometry x="674" y="62" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-2" source="f7EHwu-FPaFX82-CpgRq-8" target="f7EHwu-FPaFX82-CpgRq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-27" value="تایید و پاراف نامه" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="f7EHwu-FPaFX82-CpgRq-18">
+          <mxGeometry x="-0.0709" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-10" value="سامانه" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-1">
+          <mxGeometry x="20" y="160" width="1070" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ارسال نامه به نفر بعدی در مسیر نامه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-10">
+          <mxGeometry x="784" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-10" source="x7oLQHh2iD-KswwXOvEK-54" target="f7EHwu-FPaFX82-CpgRq-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="110" />
+              <mxPoint x="969" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-54" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;برگشت زدن نامه&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-10">
+          <mxGeometry x="459" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-7" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-10">
+          <mxGeometry x="1024" y="55" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-10" source="x7oLQHh2iD-KswwXOvEK-51" target="f7EHwu-FPaFX82-CpgRq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;نمایش نامه‌ها&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=13;dashed=0;whiteSpace=wrap;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-10">
+          <mxGeometry x="134" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-23" value="" style="rhombus;" vertex="1" parent="x7oLQHh2iD-KswwXOvEK-10">
+          <mxGeometry x="954" y="55" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-10" source="f7EHwu-FPaFX82-CpgRq-23" target="x7oLQHh2iD-KswwXOvEK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-1" source="f7EHwu-FPaFX82-CpgRq-7" target="f7EHwu-FPaFX82-CpgRq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="224" y="210.0000000000001" as="targetPoint" />
+            <mxPoint x="224" y="102" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7oLQHh2iD-KswwXOvEK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-1" source="f7EHwu-FPaFX82-CpgRq-5" target="f7EHwu-FPaFX82-CpgRq-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352.452" y="88.13" as="targetPoint" />
+            <mxPoint x="299" y="235.03030303030312" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="314" y="230" />
+              <mxPoint x="314" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PiY3lHrvoJSX50w4V89O-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-1" source="f7EHwu-FPaFX82-CpgRq-8" target="x7oLQHh2iD-KswwXOvEK-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-16" value="رد نامه" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="PiY3lHrvoJSX50w4V89O-1">
+          <mxGeometry x="-0.2357" relative="1" as="geometry">
+            <mxPoint x="15" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-1" source="f7EHwu-FPaFX82-CpgRq-8" target="x7oLQHh2iD-KswwXOvEK-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="549" y="50" />
+              <mxPoint x="874" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-26" value="تایید نامه" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="f7EHwu-FPaFX82-CpgRq-19">
+          <mxGeometry x="-0.7783" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7EHwu-FPaFX82-CpgRq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x7oLQHh2iD-KswwXOvEK-1" source="f7EHwu-FPaFX82-CpgRq-17" target="x7oLQHh2iD-KswwXOvEK-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
